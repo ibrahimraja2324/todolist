@@ -129,7 +129,7 @@ export default class UserInterface {
     }
 
 
-    static createTaskCard(task, divcard) {
+    static createTaskCard(task) {
         let bigCont = document.getElementById('bigCont');
 
         let divcardsec = document.createElement('div');
@@ -192,20 +192,6 @@ export default class UserInterface {
         
     }
 
-    static renderTasksFromArray(projectTitle) {
-        const projectManager = new ProjectManager(); 
-        const tasks = projectManager.getTasks(projectTitle);
-        const divcard = document.getElementById(projectTitle);
-        const divcardsec = divcard.querySelector('.divcardsec');
-    
-        while (divcardsec.firstChild) {
-            divcardsec.removeChild(divcardsec.firstChild);
-        }
-    
-        tasks.forEach(task => {
-            this.createTaskCard(task, divcard);
-        });
-    }
 
     static showProjectAdd() {
         const projectAdd = document.getElementById('projectAdd');

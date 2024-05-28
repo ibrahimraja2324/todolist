@@ -27,7 +27,6 @@ document.addEventListener('click', (event) => {
         console.log("Clicked on project card:", divcard.id);
         console.log(divcard)
         UserInterface.hideOtherProjectCards(divcard);
-        UserInterface.renderTasksFromArray(divcard.id);
         UserInterface.unhideTasks();
 
         UserInterface.unhideForm(divcard);
