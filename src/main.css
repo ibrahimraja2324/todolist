@@ -1,0 +1,129 @@
+* {
+    background-color: antiquewhite;
+    
+}
+
+#bigCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divcard {
+    border: 1px solid black;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+    background-color: aqua;
+    border-radius: 5vh;
+}
+
+.divcard>form {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding: 20px;
+    margin-bottom: 10vh;
+    
+}
+
+.divcard>form>input {
+    background-color: white;
+}
+
+.divcard>form>input[type="submit"] {
+    background-color: brown;
+    color: white;
+    font-weight: 900;
+    border-radius: 5vh;
+    margin-top: 2vh;
+    width: 30vw;
+    margin-left: 25vw;
+}
+
+.divcard>form>label {
+    font-weight: 900;
+    margin-top: 2vh;
+}
+
+.divcard>form>select {
+    font-weight: 500;
+    background-color: white;
+    
+}
+
+.divcard>form>button {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30vw;
+    background-color: brown;
+    color: white;
+    font-weight: 900;
+    border-radius: 5vh;
+
+}
+
+.divcard>p {
+    background-color: aqua;
+    color:black  ;
+    font-weight: 900;
+}
+
+button {
+    padding: 1vh;
+    background-color: white;
+    width: 50vh;
+    margin-bottom: 2vh;
+}
+
+#formCreation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#backButton {
+    margin-bottom: 10vh;
+}
+
+#formCreation>div>label {
+    font-weight: 800;
+}
+
+#formCreation>div>input {
+    background-color: white;
+    width: 40vw;
+}
+
+.divcardsec {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 2vh;
+    background-color: white;
+}
+
+.divcardsec>p {
+    
+    background-color: white;
+}
+
+.divcardsec>button {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    color: white;
+    font-weight: 900;
+    border-radius: 5vh;
+}
+
+
+
+
